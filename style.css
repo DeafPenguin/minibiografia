@@ -1,4 +1,45 @@
+/* Universal Styling */
+* {
+    font-family: 'Georgia', 'Times', serif;
+}
 
+/* Head Styling */
+.header {
+    height: 400px;
+    background-position: center center;
+    background-color: DarkOrange;
+}
+
+/* Body Styling */
+body {
+    background-color: burlywood;
+}
+
+/* Pharagraph Styling */
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+/* h2 Styling */
+h2 {
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+
+/* a/link's Styling */
+a {
+    color: DarkOrange;
+    text-decoration: none;
+}
+
+/* image Styling */
+img {
+    border-radius: 100%;
+}
 
 .card {
     padding-top: 20px;
@@ -194,7 +235,7 @@
 }
 
 .card.hovercard .cardheader {
-    background: url("http://lorempixel.com/850/280/nature/4/");
+    background: url("./logo.png");
     background-size: cover;
     height: 135px;
 }
